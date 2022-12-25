@@ -1,0 +1,49 @@
+h3
+{
+	color : #ffffff;
+}
+li
+{
+	height:50px;
+}
+
+ul.striped-list > li{
+  padding:12px;
+}
+ul.striped-list > li:nth-of-type(odd) {
+    background-color: #f7f7f7 ;
+}
+ul.striped-list > li:hover{
+	cursor:pointer;
+    background-color: #eae8e8;
+}
+.header{
+	background-color: #ff9216;
+}
+.header > img {
+	background-color: #ffffff;
+}
+.header{
+	padding-bottom:7px; 
+}
+
+.selectChecked ,#removeSelectedButton
+{
+	display:none;
+}
+.active{
+    background-color: #29ad8c !important;
+	border-color: #f7f7f7  !important;
+}
+
+#liveToastBtn{
+	background-color: #f7f7f7;
+	width:20%;
+	border:none;
+	border-radius: 0;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#liveToastBtn:hover{
+	color : #000000;
+}
